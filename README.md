@@ -14,3 +14,6 @@
         IdentityFile=keyfile_internal
         ProxyCommand ssh -qaY -i keyfile_bastion -p 12345 user@bastion.example.com 'nc -w 14400 %h %p'
 ```
+
+- 後續即可
+```ssh user@internal1```
